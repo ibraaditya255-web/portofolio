@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibra Aditya — Fotografer, Videografer & Desainer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome untuk Ikon Media Sosial Resmi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        .font-serif-custom { font-family: 'Playfair Display', serif; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-neutral-800 antialiased selection:bg-neutral-900 selection:text-white pt-24">
+
+    <!-- NAVBAR / HEADER (Sticky & Menu Aktif Dinamis) -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-neutral-100 py-6 px-8 md:px-16">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="font-bold tracking-widest text-lg">IA</div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#beranda" data-target="beranda" class="nav-link text-neutral-900 font-bold transition">Beranda</a>
+                <a href="#tentang" data-target="tentang" class="nav-link text-neutral-400 hover:text-black transition">Tentang</a>
+                <a href="#portofolio" data-target="portofolio" class="nav-link text-neutral-400 hover:text-black transition">Portofolio</a>
+                <a href="#layanan" data-target="layanan" class="nav-link text-neutral-400 hover:text-black transition">Layanan</a>
+                <a href="#kontak" data-target="kontak" class="nav-link text-neutral-400 hover:text-black transition">Kontak</a>
+            </nav>
+            <div class="text-neutral-600 cursor-pointer">
+                <i class="fa-regular fa-sun"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- BAGIAN UTAMA (HERO SECTION) -->
+    <section id="beranda" class="py-12 md:py-20 px-8 md:px-16 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center min-h-[80vh]">
+        <div>
+            <p class="text-xs uppercase tracking-widest text-neutral-400 font-semibold mb-3">Halo, Saya</p>
+            <h1 class="text-5xl md:text-7xl font-serif-custom font-normal text-neutral-900 mb-4">
+                Ibra <span class="italic font-light text-amber-700">Aditya</span>
+            </h1>
+            <p class="text-lg font-medium text-neutral-700 mb-6">Fotografer, Videografer & Desainer Grafis</p>
+            <p class="text-neutral-500 text-sm md:text-base leading-relaxed mb-8 max-w-md">
+                Saya membuat identitas visual, konten kreatif, serta karya fotografi dan videografi yang membantu brand dan cerita Anda tampil berkesan.
+            </p>
+            
+            <!-- Ikon Media Sosial Resmi -->
+            <div class="flex space-x-4 mb-10 text-neutral-700 items-center">
+                <a href="#" class="w-10 h-10 rounded-full border border-neutral-200 flex items-center justify-center hover:bg-neutral-900 hover:text-white transition"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="w-10 h-10 rounded-full border border-neutral-200 flex items-center justify-center hover:bg-neutral-900 hover:text-white transition">
+                    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                <a href="#" class="w-10 h-10 rounded-full border border-neutral-200 flex items-center justify-center hover:bg-neutral-900 hover:text-white transition"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="w-10 h-10 rounded-full border border-neutral-200 flex items-center justify-center hover:bg-neutral-900 hover:text-white transition"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="w-10 h-10 rounded-full border border-neutral-200 flex items-center justify-center hover:bg-neutral-900 hover:text-white transition"><i class="fa-brands fa-behance"></i></a>
+            </div>
+
+            <a href="#portofolio" class="inline-flex items-center text-xs uppercase tracking-widest text-neutral-500 hover:text-black font-semibold">
+                <span class="w-6 h-6 rounded-full border border-neutral-300 flex items-center justify-center mr-2">↓</span> Gulir ke Bawah
+            </a>
+        </div>
+
+        <!-- Foto Profil / Portofolio -->
+        <div class="relative flex justify-center">
+            <div class="absolute w-72 h-72 md:w-96 md:h-96 rounded-full border border-amber-600/30 -top-6 -right-4 pointer-events-none"></div>
+            <div class="bg-neutral-100 rounded-lg overflow-hidden w-full max-w-sm md:max-w-md shadow-sm relative z-10">
+                <div class="h-[400px] md:h-[480px] bg-neutral-200 flex items-center justify-center text-neutral-400">
+                    [Foto Profil / Portrait]
+                </div>
+            </div>
+            <div class="absolute bottom-6 right-6 z-20 text-[10px] uppercase tracking-widest text-neutral-400 space-y-1 text-right font-medium">
+                <p>Fotografi</p>
+                <p>Videografi</p>
+                <p>Desain</p>
+                <p>Kreatif</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TENTANG SAYA -->
+    <section id="tentang" class="py-24 px-8 md:px-16 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center border-t border-neutral-100 min-h-[80vh]">
+        <div>
+            <div class="bg-neutral-100 rounded-lg overflow-hidden p-4 shadow-sm border border-neutral-200">
+                <div class="h-80 bg-neutral-200 rounded flex items-center justify-center text-neutral-400">
+                    [Foto Setup / Workspace]
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="flex items-center space-x-2 mb-3">
+                <span class="w-8 h-[1px] bg-amber-700"></span>
+                <span class="text-xs uppercase tracking-widest text-amber-700 font-semibold">Tentang Saya</span>
+            </div>
+            <h2 class="text-4xl md:text-5xl font-serif-custom font-normal text-neutral-900 mb-6 leading-tight">
+                Mengubah Ide Menjadi <span class="italic text-amber-700">Visual</span>
+            </h2>
+            <p class="text-neutral-600 text-sm md:text-base leading-relaxed mb-8">
+                Saya adalah seorang kreator multidisiplin yang berfokus pada fotografi, videografi, dan desain grafis. Dengan ketertarikan mendalam pada estetika dan detail, saya selalu berusaha menghadirkan karya yang tidak hanya menarik secara visual, tetapi juga menyampaikan pesan yang kuat.
+            </p>
+            <div class="grid grid-cols-3 gap-6 pt-6 border-t border-neutral-200 text-sm">
+                <div>
+                    <p class="text-neutral-400 text-xs mb-1">Lokasi</p>
+                    <p class="font-medium text-neutral-900">Indonesia</p>
+                </div>
+                <div>
+                    <p class="text-neutral-400 text-xs mb-1">Pengalaman</p>
+                    <p class="font-medium text-neutral-900">3+ Tahun</p>
+                </div>
+                <div>
+                    <p class="text-neutral-400 text-xs mb-1">Fokus</p>
+                    <p class="font-medium text-neutral-900">Foto, Video & Desain</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTOFOLIO / KARYA PILIHAN -->
+    <section id="portofolio" class="py-24 px-8 md:px-16 max-w-7xl mx-auto border-t border-neutral-100 min-h-[80vh]">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
+            <div>
+                <div class="flex items-center space-x-2 mb-3">
+                    <span class="w-8 h-[1px] bg-amber-700"></span>
+                    <span class="text-xs uppercase tracking-widest text-amber-700 font-semibold">Portofolio</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-serif-custom font-normal text-neutral-900">
+                    Karya <span class="italic text-amber-700">Pilihan</span>
+                </h2>
+            </div>
+            <a href="https://instagram.com" target="_blank" class="mt-4 md:mt-0 text-xs uppercase tracking-widest font-semibold hover:text-amber-700 transition flex items-center">
+                Lihat Semua di Instagram →
+            </a>
+        </div>
+
+        <!-- Filter Kategori -->
+        <div class="flex flex-wrap gap-3 mb-10 text-xs font-semibold uppercase tracking-wider">
+            <button class="px-5 py-2 rounded-full bg-neutral-900 text-white">Semua</button>
+            <button class="px-5 py-2 rounded-full bg-neutral-100 text-neutral-600 hover:bg-neutral-200 transition">Fotografi</button>
+            <button class="px-5 py-2 rounded-full bg-neutral-100 text-neutral-600 hover:bg-neutral-200 transition">Videografi</button>
+            <button class="px-5 py-2 rounded-full bg-neutral-100 text-neutral-600 hover:bg-neutral-200 transition">Desain</button>
+        </div>
+
+        <!-- Grid Karya -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="group cursor-pointer">
+                <div class="h-64 bg-neutral-100 rounded-lg overflow-hidden flex items-center justify-center text-neutral-400 border border-neutral-200 mb-3">[Preview Foto]</div>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h4 class="font-medium text-sm text-neutral-900">Fotografi Lanskap</h4>
+                        <p class="text-xs text-neutral-400">Eksplorasi Alam</p>
+                    </div>
+                    <span class="text-neutral-400 group-hover:translate-x-1 transition">→</span>
+                </div>
+            </div>
+            <div class="group cursor-pointer">
+                <div class="h-64 bg-neutral-100 rounded-lg overflow-hidden flex items-center justify-center text-neutral-400 border border-neutral-200 mb-3 relative">
+                    <div class="absolute w-10 h-10 bg-black/70 rounded-full flex items-center justify-center text-white"><i class="fa-solid fa-play text-xs"></i></div>
+                    [Preview Video YouTube]
+                </div>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h4 class="font-medium text-sm text-neutral-900">Videografi Sinematik</h4>
+                        <p class="text-xs text-neutral-400">Short Movie Project</p>
+                    </div>
+                    <span class="text-neutral-400 group-hover:translate-x-1 transition">→</span>
+                </div>
+            </div>
+            <div class="group cursor-pointer">
+                <div class="h-64 bg-neutral-100 rounded-lg overflow-hidden flex items-center justify-center text-neutral-400 border border-neutral-200 mb-3">[Preview Desain]</div>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h4 class="font-medium text-sm text-neutral-900">Desain Grafis & Branding</h4>
+                        <p class="text-xs text-neutral-400">Visual Identity</p>
+                    </div>
+                    <span class="text-neutral-400 group-hover:translate-x-1 transition">→</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LAYANAN -->
+    <section id="layanan" class="py-24 px-8 md:px-16 max-w-7xl mx-auto border-t border-neutral-100 grid grid-cols-1 md:grid-cols-3 gap-12 min-h-[80vh]">
+        <div>
+            <div class="flex items-center space-x-2 mb-3">
+                <span class="w-8 h-[1px] bg-amber-700"></span>
+                <span class="text-xs uppercase tracking-widest text-amber-700 font-semibold">Layanan</span>
+            </div>
+            <h2 class="text-4xl font-serif-custom font-normal text-neutral-900 mb-4">Yang Saya Kerjakan</h2>
+            <p class="text-neutral-500 text-sm leading-relaxed">
+                Saya menyediakan layanan kreatif untuk membantu brand, bisnis, maupun individu tampil profesional melalui media visual berkualitas.
+            </p>
+        </div>
+        <div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div class="p-6 bg-neutral-50 rounded-xl border border-neutral-100 hover:border-neutral-300 transition">
+                <div class="text-amber-700 text-xl mb-3"><i class="fa-solid fa-camera"></i></div>
+                <h3 class="font-bold text-base mb-2">Fotografi</h3>
+                <p class="text-xs text-neutral-500 leading-relaxed">Pemotretan produk, komersial, lanskap, dan acara.</p>
+            </div>
+            <div class="p-6 bg-neutral-50 rounded-xl border border-neutral-100 hover:border-neutral-300 transition">
+                <div class="text-amber-700 text-xl mb-3"><i class="fa-solid fa-video"></i></div>
+                <h3 class="font-bold text-base mb-2">Videografi</h3>
+                <p class="text-xs text-neutral-500 leading-relaxed">Pembuatan video sinematik, konten promosi, dan dokumentasi.</p>
+            </div>
+            <div class="p-6 bg-neutral-50 rounded-xl border border-neutral-100 hover:border-neutral-300 transition">
+                <div class="text-amber-700 text-xl mb-3"><i class="fa-solid fa-pen-nib"></i></div>
+                <h3 class="font-bold text-base mb-2">Desain Grafis</h3>
+                <p class="text-xs text-neutral-500 leading-relaxed">Pembuatan identitas visual, logo, dan kebutuhan cetak.</p>
+            </div>
+            <div class="p-6 bg-neutral-50 rounded-xl border border-neutral-100 hover:border-neutral-300 transition">
+                <div class="text-amber-700 text-xl mb-3"><i class="fa-solid fa-share-nodes"></i></div>
+                <h3 class="font-bold text-base mb-2">Konten Media Sosial</h3>
+                <p class="text-xs text-neutral-500 leading-relaxed">Desain feed dan materi visual yang menarik untuk platform digital.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="py-24 px-8 md:px-16 max-w-7xl mx-auto border-t border-neutral-100 grid grid-cols-1 md:grid-cols-2 gap-12 items-center min-h-[80vh]">
+        <div>
+            <div class="flex items-center space-x-2 mb-3">
+                <span class="w-8 h-[1px] bg-amber-700"></span>
+                <span class="text-xs uppercase tracking-widest text-amber-700 font-semibold">Kontak</span>
+            </div>
+            <h2 class="text-4xl md:text-5xl font-serif-custom font-normal text-neutral-900 mb-6 leading-tight">
+                Mari Bekerja <span class="italic text-amber-700">Sama</span>
+            </h2>
+            <p class="text-neutral-500 text-sm md:text-base leading-relaxed mb-8">
+                Punya proyek kolaborasi, pertanyaan, atau ingin mendiskusikan konsep visual? Jangan ragu untuk menghubungi saya.
+            </p>
+            <a href="mailto:youremail@gmail.com" class="inline-block bg-neutral-900 text-white hover:bg-neutral-800 px-8 py-3 rounded-full text-sm font-medium transition shadow-sm">
+                Kirim Email →
+            </a>
+        </div>
+        <div class="space-y-6 bg-neutral-50 p-8 rounded-2xl border border-neutral-100">
+            <div class="flex items-center space-x-4">
+                <div class="w-10 h-10 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-neutral-700"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                    <p class="text-xs text-neutral-400">Email</p>
+                    <p class="text-sm font-medium text-neutral-900">youremail@gmail.com</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <div class="w-10 h-10 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-neutral-700"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                    <p class="text-xs text-neutral-400">Lokasi</p>
+                    <p class="text-sm font-medium text-neutral-900">Indonesia</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <div class="w-10 h-10 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-neutral-700"><i class="fa-brands fa-whatsapp"></i></div>
+                <div>
+                    <p class="text-xs text-neutral-400">WhatsApp</p>
+                    <p class="text-sm font-medium text-neutral-900">+62 812 3456 7890</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 px-8 md:px-16 max-w-7xl mx-auto border-t border-neutral-100 flex flex-col md:flex-row justify-between items-center text-xs text-neutral-400 space-y-4 md:space-y-0">
+        <div class="flex items-center space-x-2">
+            <span class="font-bold text-neutral-900">IA</span>
+            <span>&copy; 2026 Hak Cipta Dilindungi.</span>
+        </div>
+        <div class="flex space-x-6">
+            <a href="#" class="hover:text-black">Instagram</a>
+            <a href="#" class="hover:text-black">X (Twitter)</a>
+            <a href="#" class="hover:text-black">YouTube</a>
+            <a href="#" class="hover:text-black">LinkedIn</a>
+            <a href="#" class="hover:text-black">Behance</a>
+        </div>
+    </footer>
+
+    <!-- SCRIPT LOGIKA SCROLLSPY YANG PRESISI -->
+    <script>
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const scrollPosition = window.scrollY + 250; // Memberikan offset agar transisi menu pas saat bagian section mendekati atas layar
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (scrollPosition >= sectionTop && scrollPosition < (sectionTop + sectionHeight)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-neutral-900', 'font-bold');
+                link.classList.add('text-neutral-400');
+                if (link.getAttribute('data-target') === current) {
+                    link.classList.remove('text-neutral-400');
+                    link.classList.add('text-neutral-900', 'font-bold');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
